@@ -1,0 +1,215 @@
+* {
+  font-family: "Lora", serif;
+}
+
+h3 {
+  padding-top: 2%;
+  text-align: center;
+}
+
+.close {
+  color: #000;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+.result {
+  margin-top: 1%;
+  display: none;
+}
+
+.addContact {
+  margin-bottom: 1%;
+  border-radius: 4px;
+}
+
+.submit {
+  float: right;
+  border-radius: 4px;
+}
+
+.backBtn {
+  float: right;
+  display: none;
+  margin-top: 1%;
+  margin-left: 1%;
+}
+
+.saveBtn {
+  background-color: rgb(28, 184, 65);
+  float: right;
+  display: none;
+  margin-top: 1%;
+  border-radius: 4px;
+}
+
+.row {
+  background-color: #f2f2f2;
+  margin: 1%;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.diplayField {
+  display: none;
+}
+
+.display {
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  border: 0.5px solid black;
+}
+
+.display p {
+  background: rgb(49, 182, 49);
+  text-align: center;
+  font-size: 17px;
+}
+
+.numberOfConatact {
+  color: rgb(230, 22, 22);
+}
+.col-md-6 {
+  margin: auto;
+  padding: 1%;
+}
+
+.col-md-9 {
+  margin: auto;
+  padding: 1%;
+}
+input {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+label {
+  padding: 5px 5px 5px 5px;
+  display: inline-block;
+}
+.mainFormTemplate {
+  display: none;
+}
+
+/* Main Page styling */
+
+.mainPage {
+  text-align: center;
+}
+.addBtn {
+  margin-bottom: 1%;
+  border-radius: 4px;
+  float: left;
+}
+
+#table {
+  border: 2px solid black;
+}
+
+#table td,
+#table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#table tr:hover {
+  background-color: #ddd;
+}
+
+#table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #f3c25f;
+  color: white;
+}
+
+.searchBtn {
+  float: right;
+  margin-left: 1%;
+  margin-bottom: 1%;
+}
+.clearSearch {
+  float: right;
+  margin-left: 1%;
+  margin-bottom: 1%;
+}
+.hidden {
+  display: none;
+}
+
+.close-model {
+  position: absolute;
+  top: 1.2rem;
+  right: 2rem;
+  font-size: 2rem;
+  font-weight: 100px;
+  color: #333;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+.model {
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  width: 40%;
+  background-color: white;
+  padding: 2rem;
+  padding-bottom: 4rem;
+  border-radius: 5px;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+  z-index: 10;
+}
+
+.search-control {
+  width: 80%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 5;
+}
+.icon {
+  position: absolute;
+  padding-top: 17px;
+  padding-left: 10px;
+}
+#search {
+  width: 80%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+.checkBox input {
+  width: 15px;
+  height: 15px;
+}
+
+/* method-2 */
+/* #search {
+    width: 50%;
+    font-size: 16px;
+    padding: 10px 10px 10px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+  } */
